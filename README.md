@@ -25,6 +25,11 @@ cd python-web-app
 pip install -r requirements.txt
 ```
 
+## If you add more packages in the future, you can update the requirements.txt file with:
+```
+pip freeze > requirements.txt
+```
+
 ## Running the Application
 ```sh
 python app.py
